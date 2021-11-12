@@ -79,19 +79,19 @@ CONTAINS
       READ(4,*) XG(1),XG(2),XG(3)
       READ(4,*)
       DO I=1,6
-       READ(4,120) (MATX(I,J), J=1, 6)
+       READ(4,*) (MATX(I,J), J=1, 6)
       ENDDO
       READ(4,*)
       DO I=1,6
-       READ(4,120) (VDMP(I,J), J=1, 6)
+       READ(4,*) (VDMP(I,J), J=1, 6)
       ENDDO
       READ(4,*)
       DO I=1,6
-       READ(4,120) (CRS(I,J), J=1, 6)
+       READ(4,*) (CRS(I,J), J=1, 6)
       ENDDO
       READ(4,*)
       DO I=1,6
-       READ(4,120) (KSTF(I,J), J=1, 6)
+       READ(4,*) (KSTF(I,J), J=1, 6)
       ENDDO
       
       DO I=1,6
